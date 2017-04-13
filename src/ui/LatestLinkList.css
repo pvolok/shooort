@@ -1,0 +1,75 @@
+.LatestLinkList {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.LatestLinkList-th,
+.LatestLinkList-td {
+  font-weight: normal;
+  text-align: left;
+}
+
+.LatestLinkList-th {
+  color: #888;
+  font-size: 14px;
+  padding: 0 0 15px 20px;
+  text-align: center;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+.LatestLinkList-th-first {
+  padding-left: 0;
+  text-align: left;
+  width: 100%;
+}
+
+.LatestLinkList-td {
+  padding: 10px 0 10px 20px;
+  text-align: center;
+}
+
+.LatestLinkList-td-first {
+  padding-left: 0;
+  position: relative;
+  text-align: left;
+}
+
+.LatestLinkList-new {
+  background: #ed483c;
+  height: 100%;
+  left: -12px;
+  position: absolute;
+  top: 0;
+  width: 3px;
+}
+
+.LatestLinkList-link {
+  color: inherit;
+  font-weight: 600;
+}
+
+.LatestLinkList-code {
+  color: #f00;
+}
+
+.LatestLinkList-url {
+  color: #aaa;
+  margin-top: 6px;
+}
+
+.LatestLinkList-copy {
+  color: #ed483c;
+  display: inline-block;
+  margin-left: 20px;
+  opacity: 0; /* Using opacity for hiding to keep the link focusable. */
+}
+
+.LatestLinkList-tr:hover .LatestLinkList-copy,
+.LatestLinkList-copy:focus {
+  opacity: 1;
+}
+
+.LatestLinkList-td-date {
+  white-space: nowrap;
+}
