@@ -1,0 +1,24 @@
+.Rate {
+  position: relative;
+}
+
+.Rate-circle {
+  background: #000;
+  border-radius: 50%;
+  height: 100px;
+  position: relative;
+  width: 100px;
+}
+
+.Rate-step {
+  border: 1px solid #888;
+  border-radius: 50%;
+  box-sizing: border-box;
+  position: absolute;
+}
+
+.Rate-current {
+  background: orange;
+  border-radius: 50%;
+  position: absolute;
+}
